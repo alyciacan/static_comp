@@ -9,6 +9,7 @@
   vertical-align: baseline;
   background: transparent;
 }
+
 .html,
 .body {
   display: flex;
@@ -75,15 +76,99 @@ img.header__logo {
 }
 
 .header__admin {
-  color: #8C5383;
   display: flex;
   align-items: center;
 }
-/* .main {
+.count {
+  font-size: 200%
+}
+.purple_text {
+  color: #8C5383;
+}
+
+.main {
   flex-grow: 4;
-} */
-.card1 {
+  display: flex;
+  background-color: #FEFCEC;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 15px;
+}
+
+.date {
+  color: #a2a3aa;
+  font-size: 75%;
+}
+
+.title {
+  font-size: 70%;
+  margin-top: 15px;
+}
+
+.background-img {
+  width: 100%;
+  position: relative;
+}
+
+.url-box {
+  background-color: #a2a3aa;
+  color: #1C2826;
+  margin: 15px 10px 15px 10px;
+  padding: 10px;
+}
+h2 {
+  font-size: 130%;
+  font-weight: normal;
+}
+
+.card-text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.overlay {
+  color: white;
+  display: inline;
+  font-weight: bolder;
+}
+.one {
   background-image: url("assets/images/donkey7.svg");
+}
+.two {
+  background-image: url("assets/images/donkey6.svg");
+}
+.three {
+  background-image: url("assets/images/donkey8.svg");
+}
+.four {
+  background-image: url("assets/images/donkey10.svg");
+}
+.five {
+  background-image: url("assets/images/donkey1.svg");
+}
+.six {
+  background-image: url("assets/images/donkey3.svg");
+}
+.card-photo {
   background-repeat: no-repeat;
   background-position: top;
+  background-size: cover;
+  position: relative;
+  min-height: 150px;
+}
+
+.views-container {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  margin-right: 10px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  min-height: 300px;
+  min-width: 250px;
+  border: 2px inset grey;
+  background-color: white;
 }

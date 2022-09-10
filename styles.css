@@ -1,21 +1,42 @@
 * {
-  font-family: 'Raleway', sans-serif;
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  outline: 0;
-  font-size: 100%;
-  vertical-align: baseline;
   background: transparent;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+
+.main {
+  background-color: #DFDFE2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #1C2826;
+  font-size: 255%;
+  font-weight: normal;
+  padding: 20px 0px 20px 15px;
+  width: 100%;
+}
+
+h2 {
+  font-size: 130%;
+  font-weight: normal;
+  margin-top: 10px;
 }
 
 .html,
 .body {
+  background-color: #FEFCEC;
   display: flex;
   flex-direction: column;
-  background-color: #FEFCEC;
-  height: 100 vh;
+  height: 100vh;
 }
 
 img.tiny {
@@ -25,29 +46,28 @@ img.tiny {
 }
 
 img.icon {
-  width: 25px;
   height: 25px;
-  position: relative;
   margin: 10px 5px 20px 30px;
   min-height: 25px;
   min-width: 25px;
+  position: relative;
   vertical-align: middle;
+  width: 25px;
 }
 
 img.header__logo {
-  width: 480px;
   margin: 0px 30px 20px 0px;
+  width: 480px;
 }
 
 .header {
-  display: flex;
-  width: 100vw;
-  height: 15%;
   background-color: #1C2826;
+  display: flex;
+  height: 15%;
   min-height: 175px;
-  flex-grow: 1;
-  margin-top: 0px;
+  width: 100vw;
 }
+
 .text {
   display: inline-block;
   vertical-align: middle;
@@ -55,8 +75,8 @@ img.header__logo {
 
 .header__right,
 .header__left {
-  width: 50%;
   display: flex;
+  width: 50%;
 }
 
 .header__left {
@@ -70,29 +90,22 @@ img.header__logo {
 
 .header__nav-bar-text,
 .header__nav-bar {
+  background-color: inherit;
   color: white;
   font-weight: lighter;
-  background-color: inherit;
 }
 
 .header__admin {
-  display: flex;
   align-items: center;
+  display: flex;
 }
+
 .count {
   font-size: 200%
 }
+
 .purple_text {
   color: #8C5383;
-}
-
-.main {
-  flex-grow: 4;
-  display: flex;
-  background-color: #FEFCEC;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  gap: 15px;
 }
 
 .date {
@@ -105,20 +118,12 @@ img.header__logo {
   margin-top: 15px;
 }
 
-.background-img {
-  width: 100%;
-  position: relative;
-}
-
 .url-box {
   background-color: #a2a3aa;
   color: #1C2826;
   margin: 15px 10px 15px 10px;
+  opacity: .6;
   padding: 10px;
-}
-h2 {
-  font-size: 130%;
-  font-weight: normal;
 }
 
 .card-text {
@@ -131,44 +136,73 @@ h2 {
   display: inline;
   font-weight: bolder;
 }
-.one {
-  background-image: url("assets/images/donkey7.svg");
-}
-.two {
-  background-image: url("assets/images/donkey6.svg");
-}
-.three {
-  background-image: url("assets/images/donkey8.svg");
-}
-.four {
-  background-image: url("assets/images/donkey10.svg");
-}
-.five {
-  background-image: url("assets/images/donkey1.svg");
-}
-.six {
-  background-image: url("assets/images/donkey3.svg");
-}
-.card-photo {
-  background-repeat: no-repeat;
-  background-position: top;
-  background-size: cover;
-  position: relative;
-  min-height: 150px;
+
+.small {
+  height: 58px;
+  margin: 15px 0px 0px 15px;
 }
 
 .views-container {
-  float: right;
   display: flex;
   flex-direction: column;
+  float: right;
   margin-right: 10px;
 }
 
 .card {
+  background-color: white;
+  border: 1px solid #B1B5B3;
+  box-shadow: 2px -2px 2px 0px #B1B5B3;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  margin: 0px 10px 10px 10px;
   min-height: 300px;
   min-width: 250px;
-  border: 2px inset grey;
-  background-color: white;
+}
+
+/* CARD BACKGROUND IMAGES: */
+.card-photo {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 150px;
+  position: relative;
+}
+
+.background-img {
+  position: relative;
+  width: 100%;
+}
+
+.one {
+  background-image: url("assets/images/donkey7.svg");
+}
+
+.two {
+  background-image: url("assets/images/donkey6.svg");
+}
+
+.three {
+  background-image: url("assets/images/donkey8.svg");
+}
+
+.four {
+  background-image: url("assets/images/donkey9.svg");
+}
+
+.five {
+  background-image: url("assets/images/donkey1.svg");
+}
+
+.six {
+  background-image: url("assets/images/donkey3.svg");
+}
+
+.seven {
+  background-image: url("assets/images/donkey4.svg");
+}
+
+.eight{
+  background-image: url("assets/images/donkey5.svg");
 }

@@ -11,12 +11,12 @@ Are you, like me, forever observing donkeys and wishing you had some sort of dig
 
 
 That's okay. Actually, this was a solo project in which I was asked to build a static page that maintained the layout and design of a given comp. Here's the comp I was given: 
-<img height="50%" src="https://user-images.githubusercontent.com/105533317/189502772-54aa55bb-f1e1-4096-8b2a-676b2c47474b.png">
+<img height="45%" src="https://user-images.githubusercontent.com/105533317/189502772-54aa55bb-f1e1-4096-8b2a-676b2c47474b.png">
 
 And here's my version:     
-[Deploy Link](https://alyciacan.github.io/static_comp/)
-<img width="75%" alt="My Donkey Diary" src="https://user-images.githubusercontent.com/105533317/189510793-bf5d42aa-444e-4c67-b8b3-a205d01192c5.png">
-<img width="75%" alt="Screen Shot 2022-09-10 at 8 11 22 PM" src="https://user-images.githubusercontent.com/105533317/189511341-39549419-83e1-4f63-bbad-55234421a662.png">
+[Deploy Link](https://alyciacan.github.io/static_comp/)         
+<img width="600px" alt="My Donkey Diary" src="https://user-images.githubusercontent.com/105533317/189510793-bf5d42aa-444e-4c67-b8b3-a205d01192c5.png">
+<img width="600px" alt="Screen Shot 2022-09-10 at 8 11 22 PM" src="https://user-images.githubusercontent.com/105533317/189511341-39549419-83e1-4f63-bbad-55234421a662.png">
 
 ### Technologies Used
 * CSS
